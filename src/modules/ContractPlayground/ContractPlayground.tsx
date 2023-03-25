@@ -1,4 +1,4 @@
-import { MetamaskButton } from "common/MetamaskButton";
+import { MetamaskButton } from "common/components";
 
 export const ContractPlayground = () => {
   return (

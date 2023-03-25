@@ -3,7 +3,7 @@
     "target": "ESNext",
     "baseUrl": "./src",
     "paths": {
-      "~/*": ["./*"]
+      "*": ["./*"]
     },
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -20,6 +20,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "include": ["src", "src/common/.envs.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
