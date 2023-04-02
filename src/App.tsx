@@ -2,8 +2,9 @@ import { HelmetProvider } from "react-helmet-async";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { BrowserRouter } from "react-router-dom";
 
+import { ApiProvider } from "modules/api/ApiProvider";
+
 import { AppRouter } from "./AppRouter";
-import { ApiProvider } from "./modules/ContractPlayground/api/ApiProvider";
 
 export const App = () => {
   return (
